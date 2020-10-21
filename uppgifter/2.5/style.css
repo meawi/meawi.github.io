@@ -1,0 +1,22 @@
+.box1 {
+    color:white;
+    background-color:red;
+    padding:50px;
+}
+
+.box2 {
+    color:white;
+    background-color:green;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:50px;
+    margin-right:50px;
+    padding:15px;
+}
+
+.box3 {
+    color:white;
+    background-color:blue;
+    width:500px;
+    height:250px;
+}
