@@ -3,19 +3,19 @@ display:flex;
 align-items:center;
 justify-content:center;
 height:98vh;
-background-color:lightgray;
+background-color:rgba(219, 214, 214, 0.822);
 }
 
 .picture{
 width:420px;
 height:420px;
-border:69px solid black;
+border:42px solid black;
 border-radius:50%;
 background: url(enkoddo.jpg);
 background-repeat: no-repeat;
 background-size:500px 500px;
 background-position:center;
 border-color:white;
-box-shadow: 10px 10px 69px gray, 10px 10px 69px gray inset;
+box-shadow:1.5px 1.5px 15px black , 1.5px 1.5px 15px black inset;
 
 }
