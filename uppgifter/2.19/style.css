@@ -2,20 +2,20 @@ body {
 display:flex;
 align-items:center;
 justify-content:center;
-height:100vh;
+height:98vh;
 background-color:lightgray;
 }
 
 .picture{
-width:500px;
-height:500px;
-border:100px solid black;
+width:420px;
+height:420px;
+border:69px solid black;
 border-radius:50%;
 background: url(enkoddo.jpg);
 background-repeat: no-repeat;
 background-size:500px 500px;
 background-position:center;
 border-color:white;
-box-shadow: 2px 2px 69px gray, 10px 10px 69px gray inset;
+box-shadow: 10px 10px 69px gray, 10px 10px 69px gray inset;
 
 }
