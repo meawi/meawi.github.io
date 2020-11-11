@@ -1,0 +1,31 @@
+.parent {
+max-width:700px;
+margin:0 auto;
+line-height: 1.5
+}
+
+a {
+font-family: 'Noto Sans JP', sans-serif;
+text-decoration:none;
+}
+
+h1, h3 {
+font-family: 'Roboto', sans-serif;
+
+}
+
+p {
+font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+li {
+font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+ul {
+font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
