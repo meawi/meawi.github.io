@@ -1,0 +1,155 @@
+    .parent {
+    height:150px;
+    background-color:#222222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    border:black solid 2px;
+    }
+
+    .backgroundimg {
+    width:100%;
+    height:150px;
+    background-image:url(lentomopo.jpg);
+    background-size:119.9px;
+    filter:blur(1px);
+    }
+
+    .child {
+    width:50%;
+    height:100px;
+    background-color:rgb(234 50 44);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:25px;
+    border:black solid 3px;
+    position:absolute;
+    }
+    
+    .child2 {
+    width:50%;
+    height:75px;
+    background-color:whitesmoke;
+    border-radius:50px;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size: calc(1vw + 1vh);
+    border:black solid 3px;
+    }
+
+    h1 {
+    font-size:50px;
+    margin-top:2%;
+    font-family:sans-serif;
+    color:rgb(234 50 44);
+    text-shadow:2px 2px #222222;        
+    }
+
+    .shop {
+    background-color:whitesmoke;
+    font-size: calc(1vw + 1vh);
+    }
+
+    .about {
+    background-color:whitesmoke;
+    font-size: calc(1vw + 1vh);
+    }
+
+    .contact {
+    background-color:whitesmoke;
+    font-size: calc(1vw + 1vh);
+    }
+
+
+    .box {
+    width:200px;    
+    margin-right:20px;
+    margin-left:20px;
+    border-radius:25px;
+    font-family:sans-serif;
+    font-weight:bold;
+    color:rgb(234 50 44);
+    text-shadow:2px 2px #222222;
+    border:black solid 3px;  
+    }
+
+    .box:hover {
+    background-color:rgb(234 50 44);
+    color:whitesmoke;
+    }
+
+    .parent2 {
+    background-image:url(lentomopo.jpg);
+    background-size:73.8px;
+    background-color:rgb(234 50 44);
+    height:84vh;
+    display:flex;
+    align-items:center;
+    }
+
+    .lentomopo {
+    width:92%;
+    height:64.5vh;    
+    background-color:rgb(234 50 44);
+    margin-left:auto;
+    margin-right:auto;
+    border:black solid 3px;
+    border-radius:25px;
+    }
+
+    .backgroundimg2 {
+    background-image:url(lentomopo.jpg);    
+    height:323px;
+    width:500px;
+    background-repeat:no-repeat;
+    background-size:500px;
+    margin-left:20px;
+    margin-top:20px;
+    border:black solid 3px;
+    background-color:rgb(234 50 44); 
+    border-radius:10px;
+    margin-bottom:40px;
+    }
+
+    .text {
+    background-color:whitesmoke;
+    margin-top:20px;
+    font-family:sans-serif;
+    color:rgb(234 50 44);
+    font-weight:bold;
+    margin-left:20px;
+    margin-right:1240px;
+    border:black solid 3px;
+    border-radius:10px;  
+    font-size: calc(1vw + 1vh);
+    text-align:center;
+    text-shadow:2px 2px #222222;   
+    }
+
+    .text2 {
+    background-color:whitesmoke;
+    width:1200px;
+    height:583px;
+    font-family:sans-serif;
+    color:whitesmoke;
+    font-weight:bold;
+    border:black solid 3px;
+    margin-top:-5px;
+    margin-left:510px; 
+    border-radius:10px;  
+    font-size: calc(1vw + 1vh);
+    text-align:center;
+    text-shadow:2px 2px #222222; 
+    color:rgb(234 50 44);
+    }
+
+    body {
+    margin:0;
+    }
+
+
+    
