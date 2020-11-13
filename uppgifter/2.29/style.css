@@ -1,0 +1,92 @@
+.parent {
+width:100%;
+height:100vh;
+}
+
+.cube{
+margin-left:25%;
+margin-right:25%;
+width:50%;
+height:100vh;
+box-shadow:0 0 25px 2.5px;
+}
+
+.cube1 {
+width:100%;
+height:30vh;
+background-image:url(Dolph.jpg);
+background-size:500px;
+background-repeat:no-repeat;
+background-position:center;
+}
+.cube2 {
+    text-align:center;
+    width:100%;
+    height:15vh;
+    }
+    .cube3 {
+        width:100%;
+        height:5vh;
+        text-align:center;
+        }
+        .cube4 {
+            text-align:center;
+            width:100%;
+            height:15vh;
+            }
+
+h1 {
+font-size: calc(2vw + 2vh);
+margin:0;
+font-family:sans-serif;
+}
+
+h2 {
+font-size: calc(1vw + 1vh);
+margin:0;
+font-family:sans-serif;
+}
+
+hr {
+margin-top:5%;
+width:50%;
+color:black;
+border:black solid 1px;
+}
+
+
+p {
+margin:0;
+}
+
+@media screen and (max-width: 900px) {
+
+.cube1 {
+background-size:250px;
+
+
+}
+
+}
+@media screen and (max-width: 500px) {
+
+    .cube1 {
+    background-size:250px;
+    
+    
+    }
+    
+    }
+    @media screen and (max-width: 300px) {
+
+        .cube1 {
+        background-size:150px;
+        
+        
+        }
+        
+        }
+
+body {
+margin:0;
+}
