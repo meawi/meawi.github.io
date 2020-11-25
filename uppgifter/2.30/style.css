@@ -1,0 +1,178 @@
+    .parent {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    height:100vh;
+    background-color:#FAFAFA;
+    }
+    
+    .one {
+    border:solid darkgray 1px;
+    border-radius:3px;
+    width:320px;
+    }
+
+    .two {
+    width:320px;
+    height:62.5px;
+    font-family: 'Roboto Slab', serif;
+    }
+
+    .twointwo {
+    margin-left:10px;
+    margin-right:10px;
+    }
+
+    .three {
+    width:320px;
+    height:125px;
+    }
+
+    .four {
+    width:320px;
+    height:62.5;
+    display:flex;
+    }
+
+    .five {
+    width:200px;
+    height:100%;
+    }
+
+    .six {
+    width:200px;
+    height:62.5px;
+    }
+
+    .sixsix {
+    width:100%;
+    height:62.5px;
+    }
+    
+
+    .sixinsix {
+    margin-right:20px;
+    margin-left:7px;
+    }
+
+    .seven {
+    width:320px;
+    height:62.5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;   
+    font-family: 'Roboto', serif;
+    font-size:0.875rem;
+    }
+
+    .seven2 {
+    width:100%;
+    height:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;   
+    font-family: 'Roboto', serif;
+    font-size:0.875rem;
+    }
+
+    h1 {
+    margin:0;
+    }
+
+    p {
+    margin:0;
+    font-weight:bold;
+    }
+
+    a {
+    color:#774BEF;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+    font-size:15px;
+    }
+
+    a:hover {
+    color:#A372FF;
+    text-decoration:underline;
+    }
+
+    button {
+    font-family: 'Roboto', sans-serif;
+    background-color:#774BEF;
+    border-radius:3px;
+    border:none;
+    color:white;
+    font-weight:bold;
+    width:100px;
+    height:32px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:55px;
+    letter-spacing:3px;
+    }
+
+    button:hover {
+    background-color:#A372FF;
+    }
+
+    button:focus {
+    outline:0;
+    }
+
+
+    input {
+    color:darkgray;
+    border:solid darkgray 1px;
+    border-radius:3px;
+    width:300px;
+    height:25px;
+    margin-bottom:10px;
+    }
+
+    input:hover{
+    color:#A372FF;        
+    }
+
+    input:focus {
+    outline:0;
+    box-shadow:0 0 3px 1px #A372FF;
+    }
+
+    .graytext {
+        width:320px;
+        height:62.5px;
+        display:flex;
+        justify-content:center;
+        align-items:center;   
+        font-family: 'Roboto', serif;
+        font-size:0.875rem;
+        }
+
+        h3 {
+        margin:0; 
+        color:darkgray;
+        font-weight:lighter;          
+        }
+
+
+        @media screen and (max-width: 500px) {
+
+            .one {
+            border:none;
+            }
+
+            h1 {
+            text-align:center;
+            }
+
+            .parent {
+            background-color:#FFFFFF;
+            }
+
+        }
+
+    body {
+    margin:0;
+    }
