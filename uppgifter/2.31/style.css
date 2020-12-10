@@ -1,0 +1,155 @@
+.parent {
+width:280px;
+height:100vh;
+margin-left:auto;
+margin-right:auto;
+background: rgb(131,58,180);
+box-shadow:0 0 15px;
+font-family:sans-serif
+}
+
+.topbar {
+width:100%;
+height:10vh;
+background-color:transparent;
+}
+
+.topbarbox {
+width:280px;
+height:100%;
+margin:0;
+display:flex;
+background-color:rgb(131,58,180);
+align-items:center;
+}
+
+.box1 {
+color:white;
+width:33.3%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.box2 {
+width:33.3%;
+height:80%;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:sans-serif;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+font-weight:bold;
+}
+
+.box3 {
+width:33.3%;
+height:100%;
+color:white;
+}
+
+.games {
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.login {
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+
+
+img {
+width:100%;
+height:100%;
+}
+
+.but1 {
+width:80px;
+height:25px;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+display:flex;
+align-items:center;
+justify-content:center;
+font-family: sans-serif;
+border-top:5px solid transparent;
+border-bottom:5px solid transparent;
+}
+
+.but2 {
+width:80px;
+height:25px;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+display:flex;
+align-items:center;
+justify-content:center;
+font-family: sans-serif;
+border-top:5px solid transparent;
+border-bottom:5px solid  transparent;
+box-shadow:0 5px white;
+}
+
+body {
+overflow-y: hidden;
+overflow-x: hidden;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+margin:0;
+}
+
+.child {
+width:100%;
+height:100%;
+background-color:rgb(131,58,180);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+box-shadow:0 0 15px;
+}
+
+.imgbox3 {
+width:125px;
+height:125px;
+background-color:red;
+margin:5px;
+background-image:url(fortnite.jpg);
+background-size:100%;
+}
+
+.imgbox2 {
+width:125px;
+height:125px;
+background-color:blue;
+margin:5px;
+background-image:url(amongus.jpg);
+background-size:100%;
+}
+
+.imgbox1 {
+width:125px;
+height:125px;
+background-color:deeppink;
+margin:5px;
+background-image:url(csgo.png);
+background-size:100%;
+margin-bottom:100px;
+}
+
+p {
+margin:0;
+color:white;
+font-family:sans-serif;
+}
