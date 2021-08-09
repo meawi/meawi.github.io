@@ -1,0 +1,45 @@
+body {
+ font-family: sans-serif;
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+.intro{
+    display:flex;
+    color:white;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Download-Full-HD-Wallpapers-1080p-Free.jpg);
+    background-size:cover;
+}
+
+.typing{
+    position: relative;
+    margin-left:10px;
+}
+
+.typing::after{
+content: "";
+position: absolute;
+right: -5px;
+width:1px;
+height:4%;
+border-right:2px solid white;
+animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+0%{
+ opacity:0;
+
+}
+100%{
+    opacity:1;
+ }
+}
+
+h1 {
+margin-left:50px;
+margin-top:50px;
+}

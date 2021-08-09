@@ -1,0 +1,413 @@
+body {
+height:100%;
+width:100%;
+margin:0;
+background-image:url("carbon.jpg");
+background-size:100%;
+}
+
+.parent {
+width:70%;
+height:100%;
+margin-left:auto;
+margin-right:auto;
+background-color: rgb(22, 21, 21);
+}
+
+.topbar {
+width:100%;
+height:10%;
+background-color: rgb(40, 40, 40);
+display:flex;
+align-items: center;
+}
+
+h1 {
+margin:0;
+font-family: 'Work Sans', sans-serif;
+color:gold;
+}
+
+.text {
+margin:15px;
+width:150px;
+height:50px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.buttons {
+width:50%;
+height:100%;
+margin-left:auto;
+margin-right:auto;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.socials {
+width:20%;
+height:100%;
+margin:25px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+img {
+width:50px;
+height:50px;
+margin:5px;
+}
+
+
+.dropbtn1 {
+    font-weight:bold;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+    color:gold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width:150px;
+    height:100%;
+    border:solid 3px gold;
+  }
+  
+  .dropdown1 {
+    margin-left:auto;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content1 a {
+    color: gold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size:13px;
+  }
+  
+  .dropdown-content1 a:hover {background-color: rgb(40, 40, 40);}
+  
+  .dropdown1:hover .dropdown-content1 {display: block;}
+  
+  .dropdown1:hover .dropbtn1 {background-color: rgb(40, 40, 40);}
+
+  .dropbtn2 {
+    font-weight:bold;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+    color:gold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width:150px;
+    height:100%;
+    border:solid 3px gold;
+  }
+  
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content2 a {
+    color: gold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size:13px;
+  }
+  
+  .dropdown-content2 a:hover {background-color: rgb(40, 40, 40);}
+  
+  .dropdown2:hover .dropdown-content2 {display: block;}
+  
+  .dropdown2:hover .dropbtn2 {background-color: rgb(40, 40, 40);}
+
+  .dropbtn3 {
+    font-weight:bold;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+    color:gold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width:150px;
+    height:100%;
+    border:solid 3px gold;
+  }
+  
+  .dropdown3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content3 a {
+    color: gold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size:13px;
+  }
+  
+  .dropdown-content3 a:hover {background-color: rgb(40, 40, 40);}
+  
+  .dropdown3:hover .dropdown-content3 {display: block;}
+  
+  .dropdown3:hover .dropbtn3 {background-color: rgb(40, 40, 40);}
+
+  
+  .paymentsetc {
+  margin-top:2%;
+  width:100%;
+  height:180px;
+  background-color:rgb(40, 40, 40);
+  display:flex;
+  }
+
+  .payment {
+    margin-left:25%;
+    width:25%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    color:gold;
+    font-size:14px;
+    font-family: 'Work Sans', sans-serif;
+    background-color:rgb(40, 40, 40);
+  }
+
+  .contact {
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    color:gold;
+    font-size:14px;
+    font-family: 'Work Sans', sans-serif;
+    background-color:rgb(40, 40, 40);
+  }
+
+  p {
+  margin:5px;
+  }
+
+  .paymentmethods {
+  width:200px;
+  height:100px;
+  }
+
+  .au {
+  font-weight:bold;
+  }
+
+  .pm {
+  font-weight:bold;
+  }
+
+  
+  .mid {
+  margin-top:2%;
+  width:100%;
+  height:100vh;
+  display:flex;
+  }
+
+  .members {
+    margin-left:3%;
+    width:25%;
+    height:100vh;
+    background-color:rgb(40, 40, 40);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .members1 {
+      margin-left:2%;
+      width:70%;
+      height:100vh;
+      background-color:rgb(40, 40, 40);
+      display:flex;
+      justify-content: center;
+      }
+
+      .box1 {
+      background-color: red;
+      width:250px;
+      height:100px;
+      margin-top:20px;
+      display:flex;
+      flex-direction:row;
+      }
+
+      .box3 {
+        background-color: blue;
+        width:250px;
+        height:100px;
+        margin-top:20px;
+        display:flex;
+        flex-direction:row;
+        }
+    
+        .box5 {
+          background-color: purple;
+          width:250px;
+          height:100px;
+          margin-top:20px;
+          display:flex;
+          flex-direction:row;
+          }
+    
+          .box7 {
+            background-color: yellow;
+            width:250px;
+            height:100px;
+            margin-top:20px;
+            display:flex;
+            flex-direction:row;
+            }
+    
+            .box9 {
+              background-color: lime;
+              width:250px;
+              height:100px;
+              margin-top:20px;
+              display:flex;
+              flex-direction:row;
+              }
+    
+              .box11 {
+                background-color: deeppink;
+                width:250px;
+                height:100px;
+                margin-top:20px;
+                display:flex;
+                flex-direction:row;
+                }
+              
+                .box13 {
+                  background-color: deepskyblue;
+                  width:250px;
+                  height:100px;
+                  margin-top:20px;
+                  display:flex;
+                  flex-direction:row;
+                  }
+
+                  .box2 {
+                    background-color: blue;
+                    width:50px;
+                    height:100px;
+                    }
+              
+                    .box4 {
+                      background-color: red;
+                      width:50px;
+                      height:100px;
+                      }
+                  
+                      .box6 {
+                        background-color: yellow;
+                        width:50px;
+                        height:100px;
+                       }
+                  
+                        .box8 {
+                          background-color: purple;
+                          width:50px;
+                          height:100px;
+                          }
+                  
+                          .box10 {
+                            background-color: deeppink;
+                            width:50px;
+                            height:100px;
+                            }
+                  
+                            .box12 {
+                              
+                              background-color:deepskyblue;
+                              width:50px;
+                              height:100px;
+                              }
+                            
+                              .box14 {
+                                background-color: lime;
+                                width:50px;
+                                height:100px;
+                                }
+                
+.lvls {
+width:50px;
+height:100px;
+margin:0;
+}
+
+.lvla {
+width:100%;
+height:100%;
+margin:0;
+}
+
+.yu {
+margin-top:20px;
+color:gold;
+font-family: 'Work Sans', sans-serif;
+font-weight: bold;
+}
+
+.vid {
+width:100%;
+height:100%;
+display:flex;
+flex-direction: column;
+}
+
+iframe {
+margin:50px;
+}
+
+
+.ya {
+color:gold;
+font-family: 'Work Sans', sans-serif;
+font-weight: bold;
+margin-left:50px;
+}
+  
+

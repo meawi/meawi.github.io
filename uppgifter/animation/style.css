@@ -4,7 +4,7 @@ body {
 }
 
 canvas {
-	background-image: radial-gradient(coral, darkgray);
+	background-image: radial-gradient(crimson, darkgray);
 }
 
 #instructions {

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+    
+<body id="body">
+    <button id="red-button">red thing</button>
+
+    <button id="blue-button">blue thing</button>
+
+    <button id="green-button">green thing</button>
+
+    <button id="purple-button">purple thing</button>
+
+    <button id="yellow-button">yellow thing</button>
+
+    <button id="rtext-button">text red</button>
+
+    <button id="btext-button">text blue</button>
+
+    <button id="gtext-button">text green</button>
+
+    <button id="ptext-button">text purple</button>
+
+    <button id="ytext-button">text yellow</button>
+
+    <button id="onetext-button">size one</button>
+
+    <h1 id="h1">Hej på dig</h1>
+
+<script>
+
+let h1Element = document.getElementById("h1");
+let bodyElement = document.getElementById("body");
+    let redButtonElement = document.getElementById("red-button");
+
+    redButtonElement.addEventListener("click", changeBgToRed);
+
+    function changeBgToRed() {
+      bodyElement.style.background = "red";
+    }
+
+    let blueButtonElement = document.getElementById("blue-button");
+
+    blueButtonElement.addEventListener("click", changeBgToBlue);
+
+    function changeBgToBlue() {
+      bodyElement.style.background = "blue";
+    }
+
+    let greenButtonElement = document.getElementById("green-button");
+
+    greenButtonElement.addEventListener("click", changeBgToGreen);
+
+    function changeBgToGreen() {
+      bodyElement.style.background = "green";
+    }
+
+    let purpleButtonElement = document.getElementById("purple-button");
+
+    purpleButtonElement.addEventListener("click", changeBgToPurple);
+
+    function changeBgToPurple() {
+      bodyElement.style.background = "purple";
+    }
+
+    let yellowButtonElement = document.getElementById("yellow-button");
+
+    yellowButtonElement.addEventListener("click", changeBgToYellow);
+
+    function changeBgToYellow() {
+      bodyElement.style.background = "yellow";
+    }
+
+
+
+    let rtextButtonElement = document.getElementById("rtext-button");
+
+    rtextButtonElement.addEventListener("click", changeColorToRed);
+
+    function changeColorToRed() {
+    h1Element.style.color = "red";
+    }
+
+    let btextButtonElement = document.getElementById("btext-button");
+
+    btextButtonElement.addEventListener("click", changeColorToBlue);
+
+    function changeColorToBlue() {
+    h1Element.style.color = "blue";
+    }
+
+    let gtextButtonElement = document.getElementById("gtext-button");
+
+    gtextButtonElement.addEventListener("click", changeColorToGreen);
+
+    function changeColorToGreen() {
+    h1Element.style.color = "green";
+    }
+
+    let ptextButtonElement = document.getElementById("ptext-button");
+
+    ptextButtonElement.addEventListener("click", changeColorToPurple);
+
+    function changeColorToPurple() {
+    h1Element.style.color = "purple";
+    }
+
+    let ytextButtonElement = document.getElementById("ytext-button");
+
+    ytextButtonElement.addEventListener("click", changeColorToYellow);
+
+    function changeColorToYellow() {
+    h1Element.style.color = "yellow";
+    }
+
+
+
+    let onetextButtonElement = document.getElementById("onetext-button");
+
+    onetextButtonElement.addEventListener("click", changeSizeToOne);
+
+    function changeSizeToOne() {
+    h1Element.font.size = 1;
+    }
+
+</script>
+
+</body>
+</html>

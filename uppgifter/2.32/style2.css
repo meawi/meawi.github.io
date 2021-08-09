@@ -1,0 +1,314 @@
+.parent {
+    width:100%;
+    height:100vh;
+    background-color:red;    
+    }
+    
+    .child {
+    width:100%;
+    height:100%;
+    background-color:blue;
+    background-image: url(bg-kontakt.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    }
+    
+    .topbarbox {
+    height:15%;
+    width:100%;
+    }
+    
+    .topbar {
+    height:50%;
+    width:100%;
+    background-color:white;
+    display:flex;
+    }
+    
+    .box1 {
+    width:50%;
+    height:100%;
+    font-family: 'Roboto Slab', sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+    
+    .box2 {
+    width:100%;
+    height:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:white;
+    box-shadow:0 0 4.20px black;
+    }
+    
+    button {
+    margin:15px;
+    }
+    
+    .omoss {
+    outline:none;
+    background-color:transparent;
+    width:90px;
+    height:30px;
+    border:none;
+    font-weight:bold;
+    }
+    
+    
+    
+    .kontakt {
+    background-color:#E26641;
+    color:white;
+    border-radius:5px;
+    width:90px;
+    height:30px;
+    border:none;
+    }
+
+    .kontakt:focus {
+        outline:none;
+        }
+    
+    
+    .box3{
+    position:absolute;
+    right: 0;    
+    width:50%;
+    height:7.5%;
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    }
+    
+    .instagram {
+        width:40px;
+        height:40px;
+        margin:4px;
+        margin-left:auto;
+    }
+    
+    .facebook {
+        width:40px;
+        height:40px;
+        margin:4px;
+    }
+    
+    h1 {
+    font-weight:normal;
+    margin:0;
+    }
+    
+    body {
+    margin:0;
+    }
+    
+    
+    
+    @media only screen and (max-width: 900px) {
+        .child {
+          background-size:cover;
+        }
+    
+        .instagram {
+            width:25px;
+            height:25px;
+        }
+    
+        .facebook {
+            width:25px;
+            height:25px;
+        }
+    
+    
+      }
+
+    .boxnr0 {
+    height:5%;
+    width:100%;
+    }
+    
+    .boxnr1 {
+    height:5%;
+    width:100%;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size:30px;
+    }
+    
+    .boxnr2 {
+    height:5%;
+    width:100%;
+    color:white;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size:30px;
+    }
+    
+    .boxnr22 {
+        height:5%;
+        width:100%;
+        color:white;
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto Slab', sans-serif;
+        font-size:30px;
+        }
+
+        .boxnr00 {
+            height:5%;
+            width:100%;
+            }
+    
+    .boxnr3 {
+        height:5%;
+        width:100%;
+        color:white;
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-size:30px;
+        }
+    
+        .boxnr4 {
+            height:5%;
+            width:100%;
+            color:white;
+            color:white;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            font-size:normal;
+            margin:0 auto;
+            }
+    
+            p {
+            margin:0;
+            margin-left:50px;
+            margin-right:50px;
+            font-size:15px;
+            max-width:250px;
+            }
+    
+    
+    
+            @media only screen and (max-width: 1025px) {
+            
+            .box22 {
+            display:none;
+            margin-left:200%;
+            }
+    
+            .omoss2 {
+            display:none
+            }
+    
+            .kontakt2 {
+            display:none;
+            }
+    
+            }
+    
+            @media only screen and (min-width: 1025px) {
+            .box2 {
+            display:none;
+            }
+            
+    
+            .box22 {
+                width:100%;
+                height:50%;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                background-color:white;
+        
+            }
+    
+            .box3 {
+                width:20%;
+                margin-right:20%;
+            }
+    
+            .omoss2 {
+                outline:none;
+                background-color:transparent;
+                width:90px;
+                height:30px;
+                border:none;
+                font-weight:bold;
+            }
+    
+            .kontakt2:focus {
+            outline:none;
+            }
+    
+            .kontakt2 {
+                
+                background-color:#E26641;
+                color:white;
+                border-radius:5px;
+                width:90px;
+                height:30px;
+                border:none;
+            }
+
+        }
+
+        .inputboxes {
+        height:15%;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        input {
+        background-color: transparent;
+        color:white;
+        }
+
+        input:focus {
+        outline:none;
+        }
+
+        .namn {
+        width:250px;
+        margin-top:150px;
+        }
+
+        .epost {
+        width:250px;
+        margin-top:10px;
+        }
+    
+        .telefonnr {
+        width:250px;
+        margin-top:10px;
+        }
+
+        .meddelande {
+        width:250px;
+        padding-bottom:80px;
+        margin-top:10px;
+        }
+
+    
+    

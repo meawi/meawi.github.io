@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--
+    
+    <button id="hej-button">h e j</button>
+
+    <h1 id="h1"></h1>
+
+    -->
+
+    <button id="minus">-</button>
+
+    <h1 id="output"></h1>
+    
+    <button id="plus">+</button>
+
+
+    <script>
+
+/*
+let h1Element = document.getElementById("h1");
+let hejButtonElement = document.getElementById("hej-button");
+
+hejButtonElement.addEventListener("click", buttonFunction);
+
+function buttonFunction() {
+
+h1Element.innerHTML = "H e j  p å  d i g";
+
+}
+*/
+
+let outputElement = document.getElementById('output');
+let minusButton = document.getElementById('minus');
+let plusButton = document.getElementById('plus');
+
+let count = 0;
+
+outputElement.innerHTML = count;
+
+minusButton.addEVentListener('click', onMinusClicked);
+
+function onMinusClicked() {
+  count = count - 1;
+  count -= 1;
+  count--;
+  outputElement.innerHTML = count;
+}
+
+    </script>
+    
+</body>
+</html>

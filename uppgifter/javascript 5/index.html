@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="parent">
+    
+    
+        <div class="box1">
+    
+    <p>Calculator</p>
+    
+        </div>
+    
+    <div class="box2">
+    
+    <input id="tal1">
+
+    <button id="svara">+</button>
+    <button id="svara2">-</button>
+    <button id="svara3">*</button>
+    <button id="svara4">/</button>
+
+    <input id="tal2">
+    
+    </div>
+    
+    <div class="box3">
+    
+    </div>
+    
+    <h1 id=h1Ele></h1>
+    
+    </div>
+    
+    
+    <script>
+    
+    let h1Element = document.getElementById("h1Ele");
+    let nameInput = document.getElementById("tal1");
+    let nameInput2 = document.getElementById("tal2");
+    let buttonElement = document.getElementById("svara");
+    let buttonElement2 = document.getElementById("svara2");
+    let buttonElement3 = document.getElementById("svara3");
+    let buttonElement4 = document.getElementById("svara4");
+
+    buttonElement.addEventListener("click", ButtonClick)
+    buttonElement2.addEventListener("click", Button2Click)
+    buttonElement3.addEventListener("click", Button3Click)
+    buttonElement4.addEventListener("click", Button4Click)
+    
+function ButtonClick() {    
+    
+    let sum = parseFloat(nameInput.value||0) + parseFloat(nameInput2.value||0);
+    
+    h1Element.innerHTML =(sum);
+    
+}
+
+function Button2Click() {
+
+    let sum2 = parseFloat(nameInput.value||0) - parseFloat(nameInput2.value||0);
+
+    h1Element.innerHTML =(sum2);
+
+    }
+
+function Button3Click() {
+
+    let sum3 = parseFloat(nameInput.value||0) * parseFloat(nameInput2.value||0);
+
+    h1Element.innerHTML =(sum3);
+
+}
+
+function Button4Click() {
+
+    let sum4 = parseFloat(nameInput.value||0) / parseFloat(nameInput2.value||0);
+    
+    h1Element.innerHTML =(sum4);
+
+}
+    
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!--
+<button id="roll">Tärning sak</button>
+
+<p id="number"></p>
+-->
+
+<img id="display1" src="dice-1.svg" width="256" height="256">
+<img id="display2" src="dice-2.svg" width="256" height="256">
+<img id="display3" src="dice-3.svg" width="256" height="256">
+<img id="display4" src="dice-4.svg" width="256" height="256">
+<img id="display5" src="dice-5.svg" width="256" height="256">
+<img id="display6" src="dice-6.svg" width="256" height="256">
+
+<button id="roll">Roll</button>
+
+<script>
+
+/*
+let ButtonElement = document.getElementById("roll")
+ButtonElement.addEventListener("click", ButtonClick)
+
+function ButtonClick() {
+  document.getElementById("number").innerHTML =
+  Math.floor(Math.random() * 6+1);
+}
+*/
+
+/*
+let ButtonElement = document.getElementById("roll")
+ButtonElement.addEventListener("click", ButtonClick)
+
+function ButtonClick() {
+  document.getElementById("number").innerHTML =
+  Math.floor(Math.random() * 6+1);
+}
+*/
+
+let display1Image = document.getElementById("display1");
+let display2Image = document.getElementById("display2");
+let display3Image = document.getElementById("display3");
+let display4Image = document.getElementById("display4");
+let display5Image = document.getElementById("display5");
+let display6Image = document.getElementById("display6");
+
+let rollButton = document.getElementById("roll");
+
+rollButton.addEventListener("click", roll);
+
+function roll() {
+let randomNumber = 1 + Math.round(Math.random() * 5);
+display1Image.src = "dice-" + randomNumber + ".svg";
+
+randomNumber = 1 + Math.round(Math.random() * 5);
+display2Image.src = "dice-" + randomNumber + ".svg";
+
+randomNumber = 1 + Math.round(Math.random() * 5);
+display3Image.src = "dice-" + randomNumber + ".svg";
+
+randomNumber = 1 + Math.round(Math.random() * 5);
+display4Image.src = "dice-" + randomNumber + ".svg";
+
+randomNumber = 1 + Math.round(Math.random() * 5);
+display5Image.src = "dice-" + randomNumber + ".svg";
+
+randomNumber = 1 + Math.round(Math.random() * 5);
+display6Image.src = "dice-" + randomNumber + ".svg";
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bluescreen.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="a1"></div>
+
+<div class="b1">
+
+    <p class="bigsmile">:(</p>
+
+</div>
+
+<div class="c1">
+
+<p class="c2">Your PC ran into a problem and needs to restart. We´re just collecting some error info, and then we´ll restart for you.</p>
+
+</div>
+
+<div class="d1">
+    <p class="countdown" id="countDownText"> </p>
+
+</div>
+
+<div class="e1"></div>
+
+</div>
+
+
+
+</body>
+
+<script>
+
+let Time = 20;
+let Countdown = setInterval(function(){
+
+++Time;
+++Time;
+++Time;
++Time;
+document.getElementById("countDownText").innerHTML = Time + "%";
+
+if(Time >= 100){
+Time = 10;
+window.location = "index.html";
+}
+}, 500);
+
+</script>
+
+</html>

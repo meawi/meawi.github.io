@@ -1,0 +1,119 @@
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    margin:0;
+  }
+  
+  .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas:
+      "nav nav nav nav"
+      "sidebar main main main"
+      "sidebar content1 content2 content3"
+      "sidebar footer footer footer";
+    grid-gap: 0.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #004d40;
+    text-align: center;
+  }
+  
+  nav {
+    background:url(0.jpg);
+    grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-size:100%;
+  }
+  
+  main {
+    background-image: linear-gradient(to left, purple , crimson);
+    grid-area: main;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-size:100%;
+  }
+  
+  #sidebar {
+    background-image: linear-gradient(to right, purple , crimson);
+    grid-area: sidebar;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    color:whitesmoke;
+    font-family:sans-serif;
+    font-weight:normal;
+  }
+  
+  #content1 {
+    background:url(1.png);
+    grid-area: content1;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-size:100%;
+  }
+  
+  #content2 {
+    background:url(2.png);
+    grid-area: content2;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-size:100%;
+  }
+  
+  #content3 {
+    background:url(3.png);
+    grid-area: content3;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-size:100%;
+  }
+  
+  footer {
+    background-image: linear-gradient(to left, purple , crimson);
+    grid-area: footer;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  a {
+    text-align: center;
+    display: block;
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+        "nav"
+        "sidebar"
+        "main"
+        "content1"
+        "content2"
+        "content3"
+        "footer";
+    }
+  }
+  
+  button {
+  background-image: linear-gradient(to right, purple , crimson);
+  margin:25px;
+  width:70px;
+  height:35px;
+  border:none;
+  outline:none;
+  color:whitesmoke;
+  font-family:sans-serif;
+  }
