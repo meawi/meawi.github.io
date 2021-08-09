@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+    <title>Datum och tid</title>
+
+</head>
+
+<body onload="startTime()">
+
+<div class=box>
+
+<h1 id="clock"></h1>
+
+</div>
+
+<script>
+function startTime() {
+  const clock = new Date();
+  let h = clock.getHours();
+  let m = clock.getMinutes();
+  let s = clock.getSeconds();
+  let day = clock.getDate();
+  m = checkTime(m);
+  s = checkTime(s);
+
+  document.getElementById("clock").innerHTML =  h + ":" + m + ":" + s + " " + "| " + day;
+  setTimeout(startTime, 1000);
+
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};
+  return i;
+}
+
+
+</script>
+    
+</body>
+
+</html>
