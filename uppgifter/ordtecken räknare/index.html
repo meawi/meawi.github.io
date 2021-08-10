@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<textarea id="word" oninput="countWord()"></textarea>
+
+<span id="show">0</span>
+
+<p id="show2">0</p>
+
+<script>
+
+document.querySelector('textarea').addEventListener('input', function (event) {
+  console.log(event.target.value.length + " letters");
+
+    document.getElementById("show2").innerText = event.target.value.length + " letters";
+
+});
+
+  function countWord() {
+  
+  let words = document
+      .getElementById("word").value;
+
+  let count = 0;
+
+  let split = words.split(' ');
+
+  for (let i = 0; i < split.length; i++) {
+      if (split[i] != "") {
+          count += 1;
+      }
+  }
+
+  document.getElementById("show")
+      .innerHTML = count + " words";
+}
+  </script>
+
+</body>
+</html>

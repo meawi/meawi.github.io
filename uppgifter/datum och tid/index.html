@@ -29,10 +29,12 @@ function startTime() {
   let m = clock.getMinutes();
   let s = clock.getSeconds();
   let day = clock.getDate();
+  let mth = clock.getMonth();
+  let yr = clock.getFullYear();
   m = checkTime(m);
   s = checkTime(s);
 
-  document.getElementById("clock").innerHTML =  h + ":" + m + ":" + s + " " + "| " + day;
+  document.getElementById("clock").innerHTML =  h + ":" + m + ":" + s + " " + "| " + day + "." + mth + "." + yr;
   setTimeout(startTime, 1000);
 
 }
