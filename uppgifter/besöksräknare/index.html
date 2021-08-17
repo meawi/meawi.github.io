@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Besöksräknare</title>
+</head>
+<body>
+
+<p id="TimesVisit">a</p>
+
+<script>
+
+let Time = localStorage.getItem("Time");
+
+if(Time == null){ Time = 1; };
+
+localStorage.setItem("Time", parseInt(Time) + 1 );
+
+document.getElementById("TimesVisit").innerHTML = "site has been visited " + Time + " times.";
+
+</script>
+    
+</body>
+</html>
