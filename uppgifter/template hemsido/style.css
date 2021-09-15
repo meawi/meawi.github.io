@@ -1,0 +1,87 @@
+:root {
+    --primary-color: rgb(182, 209, 138);
+    --secondary-color: rgb(107, 146, 44);
+    --font-color: rgb(37, 47 ,19);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    width:100%;
+    min-height: 100vh;
+    background-color: var(--secondary-color);
+}
+
+.header {
+    display:flex;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+.header ul {
+    padding: 0 2rem;
+    display:flex;
+}
+
+.header ul li {
+    padding: 0 2rem;
+}
+
+.showcase {
+    display: flex;
+    width:100%;
+    min-height: 500px;
+    background-color: var(--secondary-color);
+
+}
+
+.sidebar {
+    height:80%;
+    width: 250px;
+    background-color: var(--primary-color);
+}
+
+.sidebar ul {
+    display: block;
+    padding: 2rem 2rem;
+}
+
+.sidebar ul li {
+    padding:1rem 0;
+}
+
+.products {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+}
+
+
+.sales {
+    height: 200px;
+    width: 50%;
+    background: url(https://www.multitronic.fi/images/banners/xBattlefield_desktop_SWE.jpg.pagespeed.ic.4J8OIjXtkJ.webp);
+    background-size:cover;
+    margin: auto;
+    box-shadow: 5px 5px #888;
+    border-radius: 15px 2px;
+}
+
+ul {
+ list-style:none;
+}
+
+a {
+ text-decoration: none;
+ font-size: 1.5rem;
+ color: var(--font-color)
+}
