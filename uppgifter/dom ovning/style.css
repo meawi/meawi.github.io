@@ -1,0 +1,52 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+.post {
+    width:500px;
+    height:100%;
+    background-color: rgb(234, 236, 236);
+    display:flex;
+    flex-direction: column;
+    margin:1rem;
+    border:1px solid;
+    border-color:rgb(165, 160, 160);
+    border-radius: 0.2rem;
+}
+
+.post-meta {
+    width:500px;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+}
+
+.post-content {
+    background-color: white;
+    padding:1rem;
+}
+
+a {
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+
+i {
+    color:rgb(116, 114, 114);
+    font-weight:normal;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+span {
+    color:rgb(116, 114, 114);
+    font-weight:normal;
+}

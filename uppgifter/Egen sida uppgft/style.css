@@ -17,7 +17,8 @@
     position: sticky;
     top: 0;
     display:flex;
-
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
 
 }
 
@@ -86,6 +87,7 @@ select:hover {
     background-image: url("products/l1.png");
     background-size:cover;
     background-repeat: no-repeat;
+    border-top-left-radius: 0.3rem;
 }
 .product2 {
     width:100%;
@@ -104,6 +106,7 @@ select:hover {
     height:100%;
     background-image: url("products/g3.png");
     background-size: cover;
+    border-top-right-radius: 0.3rem;
 }
 .product5 {
     width:100%;
@@ -134,6 +137,7 @@ select:hover {
     height:100%;
     background-image: url("products/a2.png");
     background-size: cover;
+    border-bottom-left-radius: 0.3rem;
 }
 .product10 {
     width:100%;
@@ -156,6 +160,7 @@ select:hover {
     height:100%;
     background-image: url("products/l2.png");
     background-size: cover;
+    border-bottom-right-radius: 0.3rem;
 }
 
 .bot-bar {

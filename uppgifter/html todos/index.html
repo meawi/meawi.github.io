@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>todos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<input id="iv" style="margin-left:20px;"> <button id="push">Push</button>
+<input id="text" style="margin-left:20px;">
+
+<button onclick="myFunction()">Push</button>
+
+<button onclick="myFunction()">Clear</button>
 
 <ul id="myList"></ul>
 
 <script>
-
-let ivs = document.getElementById("iv").value = "";
 
 //
 let data = ["Gå till skolan", "Programmera", "Köpa mat!"];
@@ -28,7 +31,9 @@ let list = document.getElementById("myList");
         li.addEventListener("click", txtChange);
         list.appendChild(li);
 
-        function txtChange(e) {
+      });
+
+      function txtChange(e) {
 if(e.target.style.textDecoration) {
     e.target.style.textDecoration = null;
 }
@@ -38,7 +43,19 @@ else {
 }
 }
 
-      });
+              
+function myFunction() {
+    
+    data.push(text.value);
+
+    let li = document.createElement("li");
+    
+    li.innerText = text.value;
+    
+    li.addEventListener("click", txtChange);
+    
+    list.appendChild(li);
+}
 //
 
 </script>
